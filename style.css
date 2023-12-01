@@ -1,0 +1,15 @@
+.card { 
+    background-color: rgb(60,32,107);
+    background-color: rgb(124,29,133);
+    background-color: rgb(200,18,180);
+    background-color: rgb(252,181,31);
+    background-color: rgb(249,98,51);
+}
+.card { 
+    background-color: #3c206b;
+    background-color: #7c1d85;
+    background-color: #c812b4;
+    background-color: #fcb51f;
+    background-color: #f96233;
+    background-image: linear-gradient(to right, #3c206b, #7c1d85, #c812b4, #fcb51f, #f96233);
+}

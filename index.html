@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Busca Cep</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+<body class="container" style="background-color: #dedede;">
+    <section class="row mt-5 align-items-center">
+        <div class="col">
+            <img src="image/imagem.svg" alt="Imagem" width="100%">
+        </div>
+        <div class="col">
+            <article class="card card-body">
+                <h3>Preencha seu endereço</h3>
+
+                <form action="">
+                    <label for="cep">CEP</label>
+                    <input id="cep" type="text" class="form-control mb-3" placeholder="Ex: 12345678">
+
+                    <label for="logradouro">Logradouro</label>
+                    <input id="logradouro" type="text" class="form-control mb-3" placeholder="Ex: rua B 351">
+                    
+                    <label for="numero">Número</label>
+                    <input id="numero" type="text" class="form-control mb-3" placeholder="Ex: 123">
+
+                    <label for="bairro">Bairro</label>
+                    <input id="bairro" type="text" class="form-control mb-3" placeholder="Ex: Novo Oriente">
+
+                    <label for="cidade">Cidade</label>
+                    <input id="cidade" type="text" class="form-control mb-3" placeholder="Ex: Maracanaú">
+
+                    <label for="uf">UF</label>
+                    <input id="uf" type="text" class="form-control mb-3" placeholder="Ex: CE">
+
+                    <div class="d-grid">
+                        <button class="btn btn-primary">Pronto</button>
+                    </div>        
+
+                </form> 
+            </article>
+        </div>
+    </section>
+
+    
+    <script src="eventos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
